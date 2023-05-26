@@ -1,3 +1,6 @@
+
+
+
 :root {
   --title-color: #2E2F42;
   --accent-color: #404BBF;
@@ -110,11 +113,14 @@ body {
 }
 
 .btn {
+  font-family: "Roboto", sans-serif;
+  width: 169px;
+  height: 56px;
   background: #4D5AE5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
-}
+  }
 
 .btn:hover,
 .btn:focus {
@@ -250,6 +256,8 @@ body {
 /**------- BTN ---------**/
 
 .btn-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
   width: 116px;
   height: 48px;
   background: #F4F4FD;
@@ -259,18 +267,28 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #404BBF;
+  cursor: pointer;
 }
 
 .btn-all {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
   width: 69px;
   height: 48px;
-  background: #404BBF;
   color: #FFFFFF;
+  background: #404BBF;
+  cursor: pointer;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
 
 .btn-app {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #4D5AE5;
+  cursor: pointer;
   width: 78px;
   height: 48px;
   background: #F4F4FD;
@@ -304,11 +322,24 @@ body {
   list-style: none;
 }
 .portfolio-item {
-
+  width: 360px;
+  height: 420px;
+  left: 156px;
+  top: 288px;
+  background: #FFFFFF;
+  border: 1px solid #E7E9FC;
 }
 .portfolio-subtitle {
-
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
 }
 .portfolio-text {
-
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--subtitle-text);
 }
