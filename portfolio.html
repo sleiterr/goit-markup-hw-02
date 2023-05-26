@@ -4,49 +4,120 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <title>Portfolio</title>
 </head>
 <body>
-    <header>
-    <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li><a href="#Home">Studio</a></li>
-          <li><a href="#Wedoing">Portfolio</a></li>
-          <li><a href="#Contacts">Contacts</a></li>
-        </ul>
+  <!-- HEADER -->
+  <header class="header">
+    <nav class="header-navigation">
+      <a href="./index.html" class="header-logo" itarget="_blank"> <span>Web</span>Studio</a>
+      <ul class="header-menu">
+        <li class="header-menu-item">
+          <a href="#Home" class="header-menu-link">Studio</a>
+        </li>
+        <li class="header-menu-item">
+          <a href="#Wedoing" class="header-menu-link">Portfolio</a>
+        </li>
+        <li class="header-menu-item">
+          <a href="#Contacts" class="header-menu-link">Contacts</a>
+        </li>
+      </ul>
     </nav>
+
     <!-- CONTACTS -->
-    <address id="Contacts">
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+    <address class="contact" id="Contacts">
+      <ul class="address-list">
+        <li class="address-item">
+          <a class="address-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>
+        <li class="address-item">
+          <a class="address-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+        </li>
       </ul>
     </address>
   </header>
   <main>
-    <ul>
-      <li>
-        <button type="button">All</button>
+    <!-- PORTFOLIO NAV -->
+    <ul class="portfolio-btn">
+      <li class="info-btn">
+        <button class="btn-all" type="button">All</button>
       </li>
-      <li>
-        <button type="button">Web Site</button>
+      <li class="info-btn">
+        <button class="btn-link" type="button">Web Site</button>
       </li>
-      <li>
-        <button type="button">App</button>
+      <li class="info-btn">
+        <button class="btn-app" type="button">App</button>
       </li>
-      <li>
-        <button type="button">Design</button>
+      <li class="info-btn">
+        <button class="btn-link" type="button">Design</button>
       </li>
-      <li>
-        <button type="button">Marketing</button>
+      <li class="info-btn">
+        <button class="btn-link" type="button">Marketing</button>
       </li>
     </ul>
+
+    <!-- PORTFOLIO -->
+    <section class="portfolio">
+      <ul class="portfolio-list">
+        <li class="portfolio-item">
+          <img src="./images/app-1.jpg" alt="banking-app"></img>
+          <h3 class="portfolio-subtitle">Banking App Interface Concept</h3>
+            <p class="portfolio-text">App</p>
+        </li>
+        <li class="portfolio-item">
+          <img src="./images/marketing-2.jpg" alt="cashless-payment"></img>
+          <h3 class="portfolio-subtitle">Cashless Payment</h3>
+            <p class="portfolio-text">Marketing</p>
+        </li>
+        <li class="portfolio-item">
+          <img src="./images/meditation-3.jpg" alt="meditation-app"></img>
+          <h3 class="portfolio-subtitle">Meditation App</h3>
+            <p class="portfolio-text">App</p>
+        </li>
+        <li class="portfolio-item">
+          <img src="./images/taxi-4.jpg" alt="taxi-service"></img>
+          <h3 class="portfolio-subtitle">Taxi Service</h3>
+            <p class="portfolio-text">Marketing</p>
+        </li>
+        <li class="portfolio-item">
+          <img src="./images/design-5.jpg" alt="screen-illustrations"></img>
+          <h3 class="portfolio-subtitle">Screen Illustrations</h3>
+            <p class="portfolio-text">Design</p>
+        </li>
+        <li class="portfolio-item">
+          <img src="./images/courses-6.jpg" alt="courses"></img>
+          <h3 class="portfolio-subtitle">Online Courses</h3>
+            <p class="portfolio-text">Marketing</p>
+        </li>
+        <li class="portfolio-item">
+          <img src="./images/concept-7.jpg" alt="instagram-stories"></img>
+          <h3 class="portfolio-subtitle">Instagram Stories Concept</h3>
+            <p class="portfolio-text">Design</p>
+        </li>
+        <li class="portfolio-item">
+          <img src="./images/organic-8.jpg" alt="organic-food"></img>
+          <h3 class="portfolio-subtitle">Organic Food</h3>
+            <p class="portfolio-text">Web Site</p>
+        </li>
+        <li class="portfolio-item">
+          <img src="./images/coffee-9.jpg" alt="coffee"></img>
+          <h3 class="portfolio-subtitle">Fresh Coffee</h3>
+            <p class="portfolio-text">Web Site</p>
+        </li>
+      </ul>
+    </section>
   </main>
+
   <!-- FOOTER -->
-  <footer>
-    <a href="./index.html">WebStudio</a>
-    <p>
+  <footer class="footer">
+    <a class="footer-logo" href="./index.html" target= "_blank"><span>Web</span>Studio</a>
+    <p class="footer-text">
       Increase the flow of customers and sales for your business with digital marketing & growth solutions.
     </p>
   </footer>

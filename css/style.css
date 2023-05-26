@@ -1,10 +1,12 @@
 :root {
-
+  --title-color: #2E2F42;
+  --accent-color: #404BBF;
+  --subtitle-text: #434455;
 }
 
 body {
   font-family: "Roboto", sans-serif;
-  color: #434455;
+  color: var(--title-color);
 }
 
 .list{
@@ -28,7 +30,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
-  color: #2E2F42;
+  color: var(--title-color);
 }
 
 .header-logo span { 
@@ -49,14 +51,14 @@ body {
   line-height: 1.5;
   text-decoration: none;
   letter-spacing: 0.02em;
-  color: #2E2F42;
+  color: var(--title-color);
 }
 
 /* BTN */
 
 .header-menu-link:hover,
 .header-menu-link:focus{
-  color: #6a6b8c;
+  color: var(--accent-color);
 }
 
 /* CONTACT */
@@ -72,16 +74,17 @@ body {
 }
 .address-link {
   font-weight: 400;
+  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--subtitle-text);
   text-decoration: none;
 }
 
 .address-link:hover,
 .address-link:focus {
-  color: #6a6b8c;
+  color: var(--accent-color);
 }
 
 /**---------- HERO -----------**/
@@ -91,7 +94,7 @@ body {
   height: 600px;
   background: #2E2F42;
 }
-.hero-title {
+.hero-heading {
   font-weight: 700;
   font-size: 56px;
   line-height: 9.33;
@@ -113,6 +116,11 @@ body {
   cursor: pointer;
 }
 
+.btn:hover,
+.btn:focus {
+  background-color: var(--accent-color);
+}
+
 /**---------- FEATURE -----------**/
 
 .features {
@@ -122,12 +130,11 @@ body {
 .feature-item {
 
 }
-.feature-subtitle {
+.feature-heading {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2E2F42;
 } 
 
 .feature-item-text {
@@ -135,7 +142,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--subtitle-text);
 }
 
 /**---------- SKILLS -----------**/
@@ -148,7 +155,6 @@ body {
   font-size: 36px;
   line-height: 1.1;
   letter-spacing: 0.02em;
-  color: #2E2F42;
 }
 .skills-list {
 
@@ -170,7 +176,6 @@ body {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  color: #2E2F42;
 }
 .team-list {
 
@@ -192,14 +197,13 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2E2F42;
 }
 .team-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--subtitle-text);
 }
 
 /**---------- FOOTER -----------**/
@@ -232,4 +236,79 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #F4F4FD;
+}
+
+/**=========== PORTFOLIO ===========**/
+
+.portfolio-btn {
+  list-style: none;
+}
+.info-btn {
+  
+}
+
+/**------- BTN ---------**/
+
+.btn-link {
+  width: 116px;
+  height: 48px;
+  background: #F4F4FD;
+  border: 1px solid #E7E9FC;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #404BBF;
+}
+
+.btn-all {
+  width: 69px;
+  height: 48px;
+  background: #404BBF;
+  color: #FFFFFF;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+.btn-app {
+  width: 78px;
+  height: 48px;
+  background: #F4F4FD;
+  border: 1px solid #E7E9FC;
+  color: #4D5AE5;
+  border-radius: 4px;
+}
+
+.btn-link:hover,
+.btn-link:focus {
+  color: #FFFFFF;
+  background: #4D5AE5;
+}
+.btn-all:hover,
+.btn-all:focus {
+  color: #FFFFFF;
+  background: #4D5AE5;
+}
+.btn-app:hover,
+.btn-app:focus {
+  color: #FFFFFF;
+  background: #4D5AE5;
+}
+
+/**----- PORTFOLIO -----**/
+
+.portfolio {
+
+}
+.portfolio-list {
+  list-style: none;
+}
+.portfolio-item {
+
+}
+.portfolio-subtitle {
+
+}
+.portfolio-text {
+
 }
