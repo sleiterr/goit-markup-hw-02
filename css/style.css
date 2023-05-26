@@ -32,12 +32,15 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.link {
   text-decoration: none;
-  color: var(--title-color);
 }
 
 .header-logo span { 
-  color: var(--active-links);
+  color: #2e2f42;
 }
 
 .header-menu {
