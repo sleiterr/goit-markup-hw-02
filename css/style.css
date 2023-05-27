@@ -222,10 +222,9 @@ body {
 }
 
 .portfolio-item {
-  
+  text-decoration: none;
 }
 .portfolio-link {
-  text-decoration: none;
 }
 .link {
   
