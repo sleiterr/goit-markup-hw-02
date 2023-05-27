@@ -14,7 +14,17 @@ body {
   color: #434455;
 }
 
+.list {
+  list-style: none
+}
 
+.info-btn {
+   text-decoration: none;
+}
+
+.link {
+  text-decoration: none;
+}
 
 /**-----------HEADER-----------**/
 
@@ -69,9 +79,6 @@ body {
   list-style: none;
 }
 
-.link {
-  text-decoration: none;
-}
 .contact {
   font-style: normal;
 }
@@ -210,22 +217,35 @@ body {
 
 /**=========== PORTFOLIO ===========**/
 
-.portfolio-btn {
-  list-style: none;
-}
-.info-btn {
+.portfolio-content {
   
 }
 
+.portfolio-item {
+  
+}
+.portfolio-link {
+  
+}
+.link {
+  
+}
+.team-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
+}
+.team-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
 /**------- BTN ---------**/
-
-.list {
-  list-style: none
-}
-
-.info-btn {
-   text-decoration: none;
-}
 
 .btn-item {
   font-family: "Roboto", sans-serif;
@@ -243,32 +263,6 @@ body {
   color: #FFFFFF;
   background-color: #404BBF;
 }
-
-
-/**----- PORTFOLIO -----**/
-
-.portfolio {
-
-}
-.list {
-  list-style: none;
-}
-
-.team-subtitle {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2E2F42;
-}
- .team-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
- }
-
 
 /**============ FOOTER ==============**/
 
