@@ -223,7 +223,11 @@ body {
   list-style: none
 }
 
-.btn-list {
+.info-btn {
+   text-decoration: none;
+}
+
+.btn-item {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -234,8 +238,8 @@ body {
   cursor: pointer;
 }
 
-.btn-list:hover,
-.btn-list:focus {
+.btn-item:hover,
+.btn-item:focus {
   color: #FFFFFF;
   background-color: #404BBF;
 }
