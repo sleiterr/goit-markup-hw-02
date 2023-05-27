@@ -2,8 +2,10 @@
   --title-color: #2E2F42;
   --accent-color: #404BBF;
   --subtitle-text: #434455;
-  --active-links: #4D5AE5;
-  --white-background: #FFFFFF;  
+  --active-links: #4d5ae5;
+  --white-background: #FFFFFF;
+  --light-backgrounds: #F4F4FD;
+  
 }
 
 body {
@@ -14,6 +16,10 @@ body {
 
 .list{
   list-style: none;
+}
+
+.link {
+  text-decoration: none;
 }
 
 /**-----------HEADER-----------**/
@@ -33,10 +39,6 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-}
-
-.link {
-  text-decoration: none;
 }
 
 .header-logo span { 
@@ -243,53 +245,29 @@ body {
 
 /**------- BTN ---------**/
 
+.list {
+  list-style: none
+}
+
 .btn-link {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  background: #F4F4FD;
-  border: 1px solid #E7E9FC;
-  border-radius: 4px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: var(--accent-color);
-  cursor: pointer;
-}
-
-.btn-all {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  color: var(--white-background);
-  background: var(--accent-color);
-  cursor: pointer;
-}
-
-.btn-app {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  color: var(--active-links);
-  cursor: pointer;
   background: #F4F4FD;
-  color: var(--active-links);
+  border: 1px solid #E7E9FC;
+  border-radius: 4px;
+  color: #4d5ae5;
+  cursor: pointer;
 }
 
 .btn-link:hover,
 .btn-link:focus {
-  color: var(--white-background);
-  background: var(--active-links);
+  color: #FFFFFF;
+  background-color: #404BBF;
 }
-.btn-all:hover,
-.btn-all:focus {
-  color: var(--white-background);
-  background: var(--active-links);
-}
-.btn-app:hover,
-.btn-app:focus {
-  color: var(--white-background);
-  background: var(--active-links);
-}
+
 
 /**----- PORTFOLIO -----**/
 
