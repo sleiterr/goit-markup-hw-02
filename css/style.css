@@ -41,7 +41,7 @@ body {
   color: #4d5ae5;
 }
 
-.header-logo span { 
+.attribut { 
   color: #2e2f42;
 }
 
@@ -59,7 +59,7 @@ body {
   line-height: 1.5;
   text-decoration: none;
   letter-spacing: 0.02em;
-  color: var(--title-color);
+  color: #2e2f42;
 }
 
 /* BTN */
@@ -71,8 +71,8 @@ body {
 
 /* CONTACT */
 
-.contact {
-  
+.link {
+  list-style: none;
 }
 .address-list {
   list-style: none;
@@ -103,7 +103,8 @@ body {
 .hero-heading {
   font-weight: 700;
   font-size: 56px;
-  line-height: 9.33;
+  line-height: 1.07;
+  text-align: center;
   letter-spacing: 0.02em;
   color: var(--white-background);
 }
@@ -138,8 +139,10 @@ body {
 .feature-heading {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
+  line-height: 1.07;
+  text-align: center;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 } 
 
 .feature-item-text {
@@ -160,6 +163,7 @@ body {
   font-size: 36px;
   line-height: 1.1;
   letter-spacing: 0.02em;
+  color: var(--title-color);
 }
 .skills-list {
 
@@ -178,7 +182,10 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
   letter-spacing: 0.02em;
+  color: var(--title-color);
 }
 .team-list {
 
@@ -250,7 +257,7 @@ body {
 .footer {
   background: #2E2F42;
 }
-.footer-link {
+.footer-item {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
